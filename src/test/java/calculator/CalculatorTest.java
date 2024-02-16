@@ -40,7 +40,7 @@ public class CalculatorTest {
 
     @Test
     public void CalculateRectCircTest() {
-        Assert.assertEquals(10, calculator.CalculateRectCirc(1, 4));
+        Assert.assertEquals(16, calculator.CalculateRectCirc(3, 5));
     }
 
     @Test
@@ -75,7 +75,7 @@ public class CalculatorTest {
 
     @Test
     public void FibbonacciTest() {
-        Assert.assertEquals(5, calculator.fibbonacci(5));
+        Assert.assertEquals(610, calculator.fibbonacci(15));
     }
 
     @Test
@@ -85,7 +85,7 @@ public class CalculatorTest {
 
     @Test
     public void FindLCMTest() {
-        Assert.assertEquals(20, calculator.findLCM(5, 4));
+        Assert.assertEquals(40, calculator.findLCM(8, 10));
     }
 
     @Test
